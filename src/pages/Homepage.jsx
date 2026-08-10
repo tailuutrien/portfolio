@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
+import { Link } from "react-router";
 
 const Homepage = () => {
   return (
@@ -39,9 +40,9 @@ const Homepage = () => {
               {/* CTA */}
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-2">
                 <Button size="lg">
-                  <a href="/projects">
+                  <Link to="/projects">
                     View Projects
-                  </a>
+                  </Link>
                 </Button>
 
                 <Button
@@ -49,7 +50,7 @@ const Homepage = () => {
                   variant="outline"
                   asChild
                 >
-                  <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href={`${import.meta.env.BASE_URL}cv.pdf`} target="_blank" rel="noopener noreferrer">
                     View CV
                   </a>
                 </Button>

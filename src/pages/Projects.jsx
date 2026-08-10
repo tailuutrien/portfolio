@@ -1,4 +1,4 @@
-import { ExternalLink, FolderGit2 } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 import {

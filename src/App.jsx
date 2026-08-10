@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { HashRouter, Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
 import Resume from './pages/Resume';
 import Skills from './pages/Skills';
@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <ScrollToTop/>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
