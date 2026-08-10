@@ -1,16 +1,111 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built with React to showcase my profile, technical skills, resume, projects, and contact information.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** — component-based frontend development
+- **Vite** — development server and build tool
+- **JavaScript**
+- **Tailwind CSS 4** — utility-first styling
+- **shadcn/ui / Base UI** — reusable UI components
+- **React Router** — client-side routing
+- **Motion** — page transition animations
+- **Lucide React & React Icons** — icons
+- **ESLint** — code linting
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multi-page navigation with routes for:
+  - Home
+  - Resume
+  - Skills
+  - Projects
+  - Contact
+  - Custom 404 page
+- Responsive layout for desktop and mobile devices
+- Page transition animations
+- Resume/CV viewing
+- Technical and soft-skills presentation
+- Project cards with:
+  - Project screenshots
+  - Technology badges
+  - GitHub links
+  - Live demo links when available
+- Project search by project name
+- Project filtering by multiple technology tags
+- Contact form with client-side validation:
+  - Required-field validation
+  - Email format validation
+  - Minimum message length
+  - Character counter
+  - Loading and success states
+- Scroll-to-top behavior when navigating between pages
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tailuutrien/portfolio.git
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Vite will display the local development URL in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+### Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Demo
+
+A public deployment for this portfolio has not been added yet.
+
+Repository: https://github.com/tailuutrien/portfolio
+
+## Screenshot
+
+### Portfolio Preview
+
+![Portfolio Preview](./public/projects/portfolio.png)
+
+> You can add 1–2 more screenshots of the Home, Projects, or Contact pages here after deploying or capturing them locally.
+
+## Author
+
+**Trien Tai Luu**
+
+- GitHub: https://github.com/tailuutrien
+- Email: tai.luutrien@gmail.com
