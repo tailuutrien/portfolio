@@ -16,31 +16,83 @@ A responsive personal portfolio website built with React to showcase my profile,
 
 ## Features
 
-- Multi-page navigation with routes for:
-  - Home
-  - Resume
-  - Skills
-  - Projects
-  - Contact
-  - Custom 404 page
-- Responsive layout for desktop and mobile devices
-- Page transition animations
-- Resume/CV viewing
-- Technical and soft-skills presentation
-- Project cards with:
-  - Project screenshots
-  - Technology badges
-  - GitHub links
-  - Live demo links when available
-- Project search by project name
-- Project filtering by multiple technology tags
-- Contact form with client-side validation:
-  - Required-field validation
-  - Email format validation
-  - Minimum message length
-  - Character counter
-  - Loading and success states
-- Scroll-to-top behavior when navigating between pages
+* **Multi-page navigation** using React Router
+
+  * Home
+  * Resume
+  * Skills
+  * Projects
+  * Contact
+  * Custom 404 Not Found page
+
+* **Responsive design**
+
+  * Optimized for mobile, tablet, and desktop
+  * Responsive navigation and page layouts
+
+* **Responsive navigation**
+
+  * Active navigation state based on the current route
+  * Hamburger menu for mobile devices
+  * Mobile navigation menu with open/close interaction
+  * Automatic menu closing after selecting a navigation item
+
+* **Page transition animations**
+
+  * Smooth entrance and exit animations between routes
+  * Animated navigation through Navbar and CTA links
+
+* **Scroll behavior**
+
+  * Automatic scroll-to-top when navigating to another route
+  * Back-to-Top button for quickly returning to the top of long pages
+
+* **Resume / Profile section**
+
+  * Personal information
+  * Career objective
+  * Education
+  * Activities and experience
+  * CV viewing/download access
+
+* **Skills section**
+
+  * Technical skills grouped by category
+  * Skill proficiency indicators
+  * Soft skills
+  * Language proficiency
+
+* **Data-driven Projects section**
+
+  * Project screenshots
+  * Project descriptions
+  * Technology badges
+  * GitHub repository links
+  * Live demo links when available
+  * Disabled state for unavailable demos
+  * Search projects by project name
+  * Filter projects by multiple technology tags
+
+* **Contact form**
+
+  * Name, email, subject, and message fields
+  * Required-field validation
+  * Email format validation
+  * Minimum 20-character message validation
+  * Message character counter
+  * Field-level validation messages
+  * Loading state during submission
+  * Disabled submit button while submitting
+  * Success message after mock submission
+
+* **Accessibility**
+
+  * Semantic HTML structure
+  * Alternative text for images
+  * Properly associated form labels
+  * Keyboard-accessible navigation controls
+  * Visible focus and interaction states
+
 
 ## Getting Started
 
@@ -91,7 +143,7 @@ npm run preview
 
 ## Demo
 
-Live Demo: https://tailuutrien.github.io/portfolio
+Live Demo: https://tailuutrien.github.io/portfolio/
 
 ## Screenshot
 
