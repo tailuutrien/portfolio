@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Mail,
   Phone,
@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import PageTransition from "@/components/PageTransition";
 import InfoItem from "@/components/InfoItem";
+import { cn } from "@/lib/utils";
 
 const Resume = () => {
   return (
@@ -32,15 +33,17 @@ const Resume = () => {
             
           </div>
 
-          <Button>
-            <a href={`${import.meta.env.BASE_URL}cv.pdf`} 
-              className="flex" 
-              target="_blank" 
-              rel="noopener noreferrer">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </a>
-          </Button>
+          <a href={`${import.meta.env.BASE_URL}cv.pdf`} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={cn("flex", buttonVariants({
+              variant: "default",
+              size: "lg",
+            }))}
+          >
+            <Download className="mr-2 h-4 w-4" />
+            Download CV
+          </a>
         </div>
 
         <div className="space-y-12">

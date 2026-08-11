@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { buttonVariants, Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
 import { Link } from "react-router";
 
@@ -33,21 +33,27 @@ const Homepage = () => {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-4">
-            <Button size="lg">
-              <Link to="/projects">
-                View Projects
-              </Link>
-            </Button>
-
-            <Button
-              size="lg"
-              variant="outline"
-              
+            <Link
+              to="/projects"
+              className={buttonVariants({
+                variant: "default",
+                size: "lg",
+              })}
             >
-              <a href={`${import.meta.env.BASE_URL}cv.pdf`} target="_blank" rel="noopener noreferrer">
-                View CV
-              </a>
-            </Button>
+              View Projects
+            </Link>
+
+            <a 
+              href={`${import.meta.env.BASE_URL}cv.pdf`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={buttonVariants({
+                variant: "secondary",
+                size: "lg",
+              })}
+            >
+              View CV
+            </a>
           </div>
         </div>
 
