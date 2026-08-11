@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
 import { Link } from "react-router";

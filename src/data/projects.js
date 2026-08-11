@@ -25,7 +25,7 @@ export const projects = [
     image: `${import.meta.env.BASE_URL}projects/portfolio.png`,
     technologies: [
       "React",
-      "Javascript",
+      "JavaScript",
       "Tailwind CSS",
       "shadcn/ui",
     ],

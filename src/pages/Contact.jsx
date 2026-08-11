@@ -73,7 +73,7 @@ export default function Contact() {
     if (!formData.message.trim()) {
       newErrors.message = "Please enter your message.";
     } else if (formData.message.trim().length < 20) {
-      newErrors.message = "Message must contain at least 10 characters.";
+      newErrors.message = "Message must contain at least 20 characters.";
     }
 
     setErrors(newErrors);
