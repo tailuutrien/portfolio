@@ -1,18 +1,16 @@
 import { useState } from "react";
 import {
-  Mail,
   Send,
   CheckCircle2,
   Loader2,
 } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import PageTransition from "@/components/PageTransition";
-import InfoItem from "@/components/InfoItem";
+import ContactInfo from "@/components/ContactInfo";
 
 const initialForm = {
   name: "",
@@ -108,38 +106,8 @@ export default function Contact() {
 
         <section className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           {/* Contact Information */}
-          <div>
-            <h2 className="text-2xl font-semibold">Get in touch</h2>
+          <ContactInfo />
 
-            <p className="mt-3 max-w-md leading-7 text-muted-foreground">
-              I&apos;m currently open to internship opportunities and
-              would be happy to discuss projects, collaborations, or other
-              opportunities.
-            </p>
-
-            <div className="mt-8 space-y-4 grid gap-2">
-              <InfoItem
-                icon={<Mail />}
-                label="Email"
-                value="tai.luutrien@gmail.com"
-                href="mailto:tai.luutrien@gmail.com"
-              />
-
-              <InfoItem
-                icon={<FaGithub />}
-                label="Github"
-                value="github.com/tailuutrien"
-                href="https://github.com/tailuutrien"
-              />
-
-              <InfoItem
-                icon={<FaLinkedin />}
-                label="LinkedIn"
-                value="linkedin.com/in/trientailuu"
-                href="https://www.linkedin.com/in/trientailuu"
-              />
-            </div>
-          </div>
 
           {/* Contact Form */}
           <div className="rounded-2xl border bg-card p-6 shadow-sm md:p-8">
