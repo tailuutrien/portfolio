@@ -22,13 +22,14 @@ const Resume = () => {
         <div className="mb-12 flex flex-col gap-6 border-b pb-8 md:flex-row md:items-end md:justify-between">
           <div>
 
-            <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight md:text-5xl ">
               Trien Tai Luu
             </h1>
 
-            <p className="mt-3 text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground">
               Frontend Developer Intern
             </p>
+            
           </div>
 
           <Button>

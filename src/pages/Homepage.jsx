@@ -6,7 +6,7 @@ import { Link } from "react-router";
 const Homepage = () => {
   return (
     <PageTransition>
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
 
         {/* Left Content */}
         <div className="space-y-6 text-center lg:text-left">
@@ -16,12 +16,12 @@ const Homepage = () => {
           </p>
 
           {/* Name */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+          <h1 className="mt-2 mb-0 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
             Trien Tai Luu
           </h1>
 
           {/* Position */}
-          <h2 className="text-2xl sm:text-3xl font-semibold text-muted-foreground">
+          <h2 className="mb-3 text-xl sm:text-2xl lg:text-4xl font-semibold text-muted-foreground">
             Frontend Developer Intern
           </h2>
 
@@ -33,7 +33,7 @@ const Homepage = () => {
           </p>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-2">
+          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-4">
             <Button size="lg">
               <Link to="/projects">
                 View Projects
@@ -62,7 +62,7 @@ const Homepage = () => {
               <img
                 src="avatar.jpg"
                 alt="Trien-Tai Luu"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-[50%_45%] scale-100"
               />
             </div>
           </div>
