@@ -15,7 +15,7 @@ export const projects = [
       "Node.js",
     ],
     github: "https://github.com/tailuutrien/mern_project_todo_web.git",
-    demo: "https://mern-project-todo-web.onrender.com/",
+    demo: null,
   },
   {
     id: 2,

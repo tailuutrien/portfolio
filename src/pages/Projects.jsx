@@ -164,13 +164,13 @@ export default function Projects() {
                 || (
                   <Tooltip>
                     <TooltipTrigger render={
-                      <Button disabled>
+                      <Button variant="ghost">
                         Disabled 
                         <ExternalLink className="ml-2 h-4 w-4" />
                       </Button>
                     } />
                     <TooltipContent>
-                      Haven&apos;t deployed yet. Please check back later.
+                      <p>Haven&apos;t deployed yet. Please check back later.</p>
                     </TooltipContent>
                   </Tooltip>
                 )}
