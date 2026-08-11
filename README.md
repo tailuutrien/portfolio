@@ -95,10 +95,14 @@ Live Demo: https://tailuutrien.github.io/portfolio
 
 ## Screenshot
 
-### Portfolio Preview
+### Home Page
 
 ![Home Page](./public/screenShot/home.png)
+
+### Projects Page
 ![Projects Page](./public/screenShot/projects.png)
+
+### Mobile view with hamburger menu
 <p align="center">
   <img src="./public/screenShot/mobile.PNG" alt="Mobile view with hamburger menu" width="300" />
 </p>
