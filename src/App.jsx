@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           </Routes>
         </main>
         
+        <BackToTop/>
       </HashRouter>
     </>
   )
