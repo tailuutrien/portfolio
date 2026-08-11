@@ -31,8 +31,11 @@ const Resume = () => {
               </p>
             </div>
 
-            <Button asChild>
-              <a href={`${import.meta.env.BASE_URL}cv.pdf`} className="flex">
+            <Button>
+              <a href={`${import.meta.env.BASE_URL}cv.pdf`} 
+                className="flex" 
+                target="_blank" 
+                rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>
