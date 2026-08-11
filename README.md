@@ -97,9 +97,9 @@ Live Demo: https://tailuutrien.github.io/portfolio
 
 ### Portfolio Preview
 
-![Portfolio Preview](./public/screenShot/home.png)
-![Portfolio Preview](./public/screenShot/projects.png)
-![Portfolio Preview](./public/screenShot/mobile.png)
+![Home Page](./public/screenShot/home.png)
+![Projects Page](./public/screenShot/projects.png)
+![Mobile view with hamburger menu](./public/screenShot/mobile.PNG)
 
 ## Author
 
