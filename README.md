@@ -91,17 +91,15 @@ npm run preview
 
 ## Demo
 
-A public deployment for this portfolio has not been added yet.
-
-Repository: https://github.com/tailuutrien/portfolio
+Live Demo: https://tailuutrien.github.io/portfolio
 
 ## Screenshot
 
 ### Portfolio Preview
 
-![Portfolio Preview](./public/projects/portfolio.png)
-
-> You can add 1–2 more screenshots of the Home, Projects, or Contact pages here after deploying or capturing them locally.
+![Portfolio Preview](./public/screenShot/home.png)
+![Portfolio Preview](./public/screenShot/projects.png)
+![Portfolio Preview](./public/screenShot/mobile.png)
 
 ## Author
 
