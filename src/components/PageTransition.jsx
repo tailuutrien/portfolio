@@ -11,6 +11,7 @@ function PageTransition({ children }) {
         duration: 0.35,
         ease: "easeInOut",
       }}
+      className="min-h-screen bg-background mt-5"
     >
       {children}
     </motion.div>

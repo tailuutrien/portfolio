@@ -33,7 +33,7 @@ export const technicalSkills = [
     skills: [
       { name: "Git & GitHub", level: 70, status: "Comfortable" },
       { name: "Vite", level: 60, status: "Familiar" },
-      // { name: "REST API", level: 65, status: "Familiar" },
+      { name: "REST API", level: 50, status: "Familiar" },
     ],
   },
 ];
