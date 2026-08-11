@@ -99,7 +99,9 @@ Live Demo: https://tailuutrien.github.io/portfolio
 
 ![Home Page](./public/screenShot/home.png)
 ![Projects Page](./public/screenShot/projects.png)
-![Mobile view with hamburger menu](./public/screenShot/mobile.PNG)
+<p align="center">
+  <img src="./public/screenShot/mobile.PNG" alt="Mobile view with hamburger menu" width="300" />
+</p>
 
 ## Author
 
