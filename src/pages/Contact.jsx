@@ -135,8 +135,8 @@ export default function Contact() {
               <InfoItem
                 icon={<FaLinkedin />}
                 label="LinkedIn"
-                value="github.com/tailuutrien"
-                href="https://github.com/tailuutrien"
+                value="linkedin.com/in/trientailuu"
+                href="https://www.linkedin.com/in/trientailuu"
               />
             </div>
           </div>

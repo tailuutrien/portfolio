@@ -67,18 +67,21 @@ const Resume = () => {
                 icon={<MapPin />}
                 label="Location"
                 value="Ho Chi Minh City, Vietnam"
+                href={"https://www.google.com/maps/place/Ho+Chi+Minh+City,+Vietnam"}
               />
 
               <InfoItem
                 icon={<Mail />}
                 label="Email"
                 value="tai.luutrien@gmail.com"
+                href="mailto:tai.luutrien@gmail.com"
               />
 
               <InfoItem
                 icon={<Phone />}
                 label="Phone"
                 value="+84 942 808 454"
+                href="tel:+84942808454"
               />
 
             </div>
@@ -125,13 +128,27 @@ const Resume = () => {
 
             <TimelineItem
               icon={<Users />}
-              title="Organization / Club Name"
-              subtitle="Your Role"
-              date="2024 — Present"
+              title="OISP Camp 2025 Organizing Committee"
+              subtitle="Art & Stage Team Supervisor"
+              date="2025"
             >
               <p className="text-muted-foreground">
-                Briefly describe your responsibilities, activities, and
-                contributions to the organization.
+                Supervised the Art & Stage team, coordinating event preparation,
+                stage setup, and team activities to ensure smooth and successful
+                event execution.
+              </p>
+            </TimelineItem>
+
+            <TimelineItem
+              icon={<Users />}
+              title="OISP Camp 2024 Organiser Committee"
+              subtitle="Art & Stage Team Leader"
+              date="2024"
+            >
+              <p className="text-muted-foreground">
+                Contributed to the Art & Stage team in organizing OISP Camp 2024,
+                supporting event preparation and helping ensure the event's successful
+                execution.
               </p>
             </TimelineItem>
           </section>
