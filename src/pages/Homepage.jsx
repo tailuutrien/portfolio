@@ -43,7 +43,7 @@ const Homepage = () => {
             <Button
               size="lg"
               variant="outline"
-              asChild
+              
             >
               <a href={`${import.meta.env.BASE_URL}cv.pdf`} target="_blank" rel="noopener noreferrer">
                 View CV

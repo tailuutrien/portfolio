@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import BackToTop from './components/BackToTop';
+import { AnimatePresence } from 'motion/react';
 
 function App() {
   return (
@@ -17,14 +18,16 @@ function App() {
         <ScrollToTop/>
 
         <main className='mt-3 min-h-screen bg-background mx-auto max-w-6xl px-6 py-16 md:px-8 md:py-15'>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <AnimatePresence mode='wait'>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </AnimatePresence>
         </main>
         
         <BackToTop/>

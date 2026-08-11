@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const NotFound = () => {
   return (
@@ -11,7 +12,7 @@ const NotFound = () => {
         Wrong Wayyyyy
       </p>
 
-      <a href='/' className='inline-block px-6 py-3 mt-6 font-medium text-white transition show-md bg-primary rounded-2xl hover:bg-primary-dark'>Go Back Home</a>
+      <Link to='/' className='inline-block px-6 py-3 mt-6 font-medium text-white transition show-md bg-primary rounded-2xl hover:bg-primary-dark'>Go Back Home</Link>
     </div>
   )
 }

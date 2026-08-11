@@ -12,7 +12,7 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 
-import { technicalSkills, softSkills } from "@/lib/data";
+import { technicalSkills, softSkills } from "@/data/skills";
 import PageTransition from "@/components/PageTransition";
 
 const getStatusVariant = (status) => {

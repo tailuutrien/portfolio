@@ -30,7 +30,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-import { projects, technologies } from "@/lib/data";
+import { projects, technologies } from "@/data/projects";
 import PageTransition from "@/components/PageTransition";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
@@ -136,7 +136,7 @@ export default function Projects() {
 
               {/* Links */}
               <CardFooter className="flex gap-3">
-                <Button variant="outline" asChild>
+                <Button variant="outline" >
                   <a
                     href={project.github}
                     target="_blank"
@@ -149,7 +149,7 @@ export default function Projects() {
                 </Button>
 
                 {project.demo && (
-                  <Button asChild>
+                  <Button >
                     <a
                       href={project.demo}
                       target="_blank"
@@ -164,14 +164,9 @@ export default function Projects() {
                 || (
                   <Tooltip>
                     <TooltipTrigger render={
-                      <Button> 
-                        <a href="\projects"
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="flex items-center disabled cursor-not-allowed opacity-50" > 
-                          Disabled 
-                          <ExternalLink className="ml-2 h-4 w-4" /> 
-                        </a> 
+                      <Button disabled>
+                        Disabled 
+                        <ExternalLink className="ml-2 h-4 w-4" />
                       </Button>
                     } />
                     <TooltipContent>
